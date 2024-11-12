@@ -166,3 +166,7 @@ cython_debug/
 
 # Hidden files
 .DS_Store
+
+
+# Output files
+*.gpx

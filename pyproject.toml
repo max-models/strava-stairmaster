@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "template-python"
+name = "strava-stairmaster"
 version = "0.1"
 description = "Template python repository."
 readme = "README.md"
@@ -18,16 +18,17 @@ dependencies = [
     "black",
     "isort",
     "autopep8",
+    "gpxpy",
 ]
 
 [project.optional-dependencies]
 dev = ["check-manifest"]
 test = ["coverage"]
 [project.urls]
-"Source" = "https://github.com/max-models/template-python"
+"Source" = "https://github.com/max-models/strava-stairmaster"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [project.scripts]
-template-python = "app.main:main"
+strava-stairmaster = "app.main:main"
