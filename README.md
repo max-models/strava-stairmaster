@@ -20,5 +20,11 @@ pip install -e .
 Run the code with
 
 ```
-template-python
+strava-stairmaster --duration 0:15:0 --floors 100
+```
+
+Show help with
+
+```
+strava-stairmaster -h
 ```
